@@ -42,44 +42,6 @@ void outputchar()
 
 	printf("Output T or F : ");
 
-	//^
-	if (str.Letters[1] == '^')
-	{
-		if (str.Letters[0] == 'T' && str.Letters[2] == 'T' )
-		{
-			printf("T");
-		}
-		else
-		{
-			printf("F");
-		}
-	}
-
-	//V
-	if (str.Letters[1] == 'V')
-	{
-		if (str.Letters[0] == 'F' && str.Letters[2] == 'F')
-		{
-			printf("F");
-		}
-		else
-		{
-			printf("T");
-		}
-	}
-
-	//>
-	if (str.Letters[1] == '>')
-	{
-		if (str.Letters[0] == 'T' && str.Letters[2] == 'F' )
-		{
-			printf("F");
-		}
-		else
-		{
-			printf("T");
-		}
-	}
 
 	//<
 	if (str.Letters[1] == '<')
@@ -87,7 +49,7 @@ void outputchar()
 		if (str.Letters[0] == 'T' && str.Letters[2] == 'T' || str.Letters[0] == 'F' && str.Letters[2] == 'F')
 		{
 			printf("T");
-		}
+		} 
 		else
 		{
 			printf("F");
